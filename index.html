@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carrusel de Revisión</title>
+<link rel="stylesheet" href="carrusel.css">
+</head>
+<body>
+    <div id="divmenu" class="navbar-container">
+        <nav class="navbar">
+          <div id="divimg">
+            <img src=".png" >
+          </div>
+            <ul id="menu" >
+          <li><a href="bio.html">Inicio</a></li>
+          <li><a href="#">creadores</a></li>
+          <li><a href="pag-ayuda.html">acerca de</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+<!-- Contenedor del carrusel -->
+<div class="carousel">
+  <!-- Contenedores individuales para cada diapositiva (imagen) -->
+  <div class="slide active">
+    <img src="astronauta.jpg" alt="Imagen 1">
+  </div>
+  <div class="slide">
+    <img src="aimep3.jpg" alt="Imagen 2">
+  </div>
+  <div class="slide">
+    <img src="charmander.jpg" alt="Imagen 3">
+  </div>
+  
+  <!-- Botones de navegación -->
+  <button class="prev" onclick="prevSlide()">&#10094;</button>
+  <button class="next" onclick="nextSlide()">&#10095;</button>
+</div>
+
+<script src="carrusel.js"></script>
+<div id="pie">
+    <ul id="redes">
+      <a href="https://facebook.com" target="_blank"><img src="facebook.png"></a>
+      <a href="https://instagram.com" target="_blank"><img src="instagram.png"></a>
+      <a href="https://tiktok.com" target="_blank"><img src="tiktok.png"></a>
+    </ul>
+      
+    <footer>
+      Derechos reservados &copy; 2013-2024
+    </footer>
+
+</body>
+</html>
